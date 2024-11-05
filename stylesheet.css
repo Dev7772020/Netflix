@@ -1,0 +1,127 @@
+:root{
+    --red-color: #e50914;
+    --red-color-hover: #c11119;
+    --gray-color: #2d2d2d;
+    --gray-color-hover: #414141;
+}
+
+option{
+    color: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.bg-img{
+    background-image:url('assets/BG\ image.jpg');
+    height: 100vh;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    box-shadow: 100px 200px 1000px rgba(0, 0, 0, 0.8) inset;
+}
+
+#gray-text{
+    color: rgba(255, 255, 255, 0.734);
+}
+
+.nav{
+    padding: 25px 50px;
+    height: 50px;
+    margin-bottom: 120px;
+
+}
+
+.nav-img svg{
+    height: 40px;
+    float: left;
+    fill: var(--red-color);
+}
+
+.nav-left{
+    float: right;
+    display: flex;
+}
+
+.nav-left select{
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.nav-left a{
+    text-decoration: none;
+    background-color: var(--red-color);
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+}
+
+.nav-left a:hover ,.email-start a:hover{
+    background-color: var(--red-color-hover);
+}
+
+
+.page1-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page1-content h1{
+    font-size: 56px;
+    font-weight: 900;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.page1-content h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.email-start-text{
+    margin-top: 30px;
+}
+
+.email-start-text h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.email-start{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-start input{
+    font-size: 16px;
+    height: 56px;
+    padding-left: 24px;
+    width: 30%;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: 1px solid white;
+}
+
+.email-start a{
+    font-size: 24px;
+    background-color: var(--red-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+  
